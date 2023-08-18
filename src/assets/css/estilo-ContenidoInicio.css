@@ -1,0 +1,186 @@
+.slider {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.slider .tituloSlider {
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.slider .tituloSlider .tituloSliderh1 {
+  font-size: 1.4em;
+}
+
+.slider .tituloSlider .tituloSliderh2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.slider .tituloSlider .tituloSliderh3 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.slider .cuerpoSlider {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .cuerpoSlider .contenidoSlider {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  z-index: 0;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box {
+  position: relative;
+  width: 120px;
+  height: 200px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box:hover .box1 {
+  z-index: 101;
+  left: 10px;
+  top: 20px;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box:hover .box2 {
+  z-index: 99;
+  left: 0px;
+  top: 0px;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box .box1 {
+  position: absolute;
+  width: 110px;
+  height: 180px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #000;
+  background: dodgerblue;
+  color: #fff;
+  z-index: 99;
+  padding: 3px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box .box2 {
+  position: absolute;
+  width: 110px;
+  height: 180px;
+  left: 10px;
+  top: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  z-index: 100;
+  padding: 3px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    color: yellow;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box h4{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #0d3878;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box h5{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box span{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+    right: 5px;
+    color: crimson;
+}
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box i{
+    color: yellow;
+}
+
+.slider .cuerpoSlider .contenidoSlider .cajaGrande .box img{
+    position: relative;
+    width: 100px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.slider .enlaseSlider {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.slider .paginadoSlider{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .paginadoSlider .pagina{
+  position: relative;
+  padding: 10px;
+  font-size: 1.3em;
+}

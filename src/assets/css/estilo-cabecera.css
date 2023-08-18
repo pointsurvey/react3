@@ -1,0 +1,53 @@
+.logoCabecera,
+.tituloCabecera {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(3, 154, 255) url(../img/topo/curvas-dark2.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+.logoCabecera img {
+  position: relative;
+  width: 240px;
+  height: auto;
+  object-fit: cover;
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+}
+
+.tituloCabecera p {
+  font-size: 1.2em;
+  color: yellow;
+}
+
+.migajasCabecera {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  background: #ccc;
+  margin-bottom: 5px;
+}
+
+.migajasCabecera .migajaSeparador {
+  padding: 0 7px;
+}
+
+.migajasCabecera .migajaTipo1{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-family: "segoe";
+}

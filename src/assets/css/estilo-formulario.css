@@ -1,0 +1,84 @@
+.formularioCambio {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  background: rgb(3, 154, 255) url(../img/topo/curvas-dark2.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  transition: 0.5s ease-in-out all;
+  -webkit-transition: 0.5s ease-in-out all;
+  -moz-transition: 0.5s ease-in-out all;
+  -ms-transition: 0.5s ease-in-out all;
+  -o-transition: 0.5s ease-in-out all;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+.formularioCambio .FormC,
+.formularioCambio .FormD,
+.formularioCambio .FormE {
+  display: none;
+}
+
+.formularioCambio .FormC {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  color: rgb(0, 255, 0);
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+  -webkit-transition: 0.5s ease-in-out all;
+  -moz-transition: 0.5s ease-in-out all;
+  -ms-transition: 0.5s ease-in-out all;
+  -o-transition: 0.5s ease-in-out all;
+}
+
+.formularioCambio .FormC:hover {
+    background: rgb(0, 255, 0);
+    color: #111;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.formularioCambio .FormD {
+  position: relative;
+  width: calc(100% - 50px);
+  height: 80px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  font-family: "monse";
+  color: blue;
+  background: #eee;
+}
+.formularioCambio span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.formularioCambio span .icon-cross {
+  color: red;
+  cursor: pointer;
+}
+
+.formularioCambio span .icon-checkmark {
+  color: rgb(0, 255, 0);
+  cursor: pointer;
+}

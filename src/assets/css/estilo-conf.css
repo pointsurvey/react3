@@ -1,0 +1,721 @@
+.configGeneral {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px 30px 10px 20px;
+  z-index: 100;
+}
+
+.configGeneral .contenidoConf {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 10px 10px 10px rgb(134, 134, 134);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.configGeneral .contenidoConf .grupoTitulo {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.configGeneral .contenidoConf .grupoTitulo h1 {
+  padding-left: 20px;
+}
+
+.configGeneral .contenidoConf .grupoTitulo span {
+  position: relative;
+  width: 100%;
+  font-size: 1.1em;
+  font-family: "monse";
+}
+
+.configGeneral .contenidoConf .grupoTitulo p {
+  color: #222;
+  font-size: 1.1em;
+}
+
+.configGeneral .contenidoConf .grupoTitulo .titulos,
+.configGeneral3 .contenidoConf .grupoTitulo .titulos{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  border-bottom: 0.2px solid #8e8e8e;
+}
+.configGeneral .contenidoConf .grupoTitulo .subtitulos,
+.configGeneral3 .contenidoConf .grupoTitulo .subtitulos{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.configGeneral .contenidoConf .grupoTitulo .titulos NavLink,
+.configGeneral3 .contenidoConf .grupoTitulo .titulos NavLink,
+.configGeneral .contenidoConf .grupoTitulo .titulos h2,
+.configGeneral3 .contenidoConf .grupoTitulo .titulos h2{
+  position: relative;
+  width: 120px;
+  text-align: center;
+  font-family: "segoe";
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+  border-bottom: 2px solid #111;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.configGeneral3 .contenidoConf .grupoTitulo .titulos .tituloElejido{
+  position: relative;
+  width: 120px;
+  text-align: center;
+  font-family: "segoe";
+  font-size: 16px;
+  font-weight: 400;
+  color: #49a8c5;
+  border-bottom: 2px solid #49a8c5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.configGeneral .contenidoConf .grupoTitulo .subtitulos h3{
+  position: relative;
+  width: 120px;
+  text-align: center;
+  font-weight: 400;
+  color: #111;
+}
+
+.configGeneral .contenidoConf .grupoTitulo .titulos .tituloInactivo,
+.configGeneral3 .contenidoConf .grupoTitulo .titulos .tituloInactivo,
+.configGeneral .contenidoConf .grupoTitulo .subtitulos .tituloInactivo{
+  position: relative;
+  width: 120px;
+  color: #8e8e8e;
+  border-bottom: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.configGeneral .contenidoConf .grupoTitulo .lineaSuave{
+  border: 0.2px solid #8e8e8e !important;
+}
+
+.configGeneral .contenidoConf .grupoContenido2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.configGeneral .contenidoConf .grupoContenido {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.configGeneral .contenidoConf .grupoContenido .grupoImagen {
+  position: relative;
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.configGeneral .contenidoConf .grupoContenido .grupoImagen img {
+  position: relative;
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.configGeneral .contenidoConf .grupoContenido .grupoDatos {
+  position: relative;
+  width: calc(100% - 270px);
+  height: auto;
+}
+
+.configGeneral .contenidoConf .grupoContenido2 .grupoDatos1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.configGeneral .contenidoConf .grupoContenido2 .grupoDatos1 .caja1{
+  position: relative;
+  width: 100px;
+  height: 35px;
+  background: #333;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido2 .grupoDatos1 .caja1.agregar{
+  background: #49a8c5;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.configGeneral .contenidoConf .grupoContenido .grupoDatos2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.configGeneral .contenidoConf .grupoContenido .grupoDatos3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.configGeneral .contenidoConf .grupoEstadistica {
+  position: relative;
+  max-width: 550px;
+  height: auto;
+  padding: 10px 5px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.configGeneral .contenidoConf .grupoEstadistica .box {
+  position: relative;
+  min-width: 100px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(134, 134, 134, 0.5);
+}
+
+.configGeneral .contenidoConf .grupoEstadistica .box p {
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "monse";
+}
+
+.configGeneral .contenidoConf .grupoEstadistica .box span {
+  font-size: 1.2em;
+}
+
+.configGeneral .contenidoConf .grupoMoneda {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  background: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.configGeneral .contenidoConf .grupoDatos2.abrirMeSige,
+.configGeneral .contenidoConf .grupoDatos2.abrirYoSigo{
+  display: none;
+}
+
+.configGeneral .contenidoConf .grupoDatos2 .grupoElementos3 {
+  position: relative;
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.configGeneral .contenidoConf .grupoElementos3 img{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.configGeneral .contenidoConf .grupoElementos3 div{
+  position: relative;
+  width: calc(100% - 175px);
+}
+
+.configGeneral .contenidoConf .grupoElementos3 div h2{
+  font-family: "segoe";
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.configGeneral .contenidoConf .grupoElementos3 div p{
+  position: relative;
+  font-family: "segoe";
+  font-size: 0.9em;
+  font-weight: 400;
+  top:-8px;
+  color: #5f5f5f;
+}
+
+.configGeneral .contenidoConf .grupoElementos3 div p span{
+  position: relative;
+  font-family: "segoe";
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #49a8c5;
+}
+
+.configGeneral .contenidoConf .grupoElementos2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.configGeneral .contenidoConf .grupoElementos2 img {
+  width: 300px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.configGeneral .contenidoConf .grupoElementos {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.configGeneral .contenidoConf label {
+  font-size: 0.9em;
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTextoContenido{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.configGeneral .contenidoConf .grupoElementos .textoContenido {
+  font-size: 1.1em;
+  font-family: "monse";
+  padding-left: 20px;
+}
+
+.configGeneral .contenidoConf .grupoElementos .icon-pencil {
+  padding-left: 20px;
+  font-size: 1.2em;
+  color: blue;
+  cursor: pointer;
+}
+
+.configGeneral .contenidoConf .grupoElementos .tituloDescripcion {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "monse";
+}
+.configGeneral .contenidoConf .grupoElementos .tituloFijoDescripcion {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "monse";
+  color: blue;
+  margin: 10px 0;
+}
+
+.configGeneral .contenidoConf .grupoElementos .textoDescripcion {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  font-family: "monse";
+  margin: 5px 0;
+  color: #333;
+}
+
+.configGeneral .contenidoConf .grupoElementos .imgDescripcion {
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  padding: 5px 20px;
+}
+
+.configGeneral .contenidoConf .grupoElementos .tituloPolitica {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: "monse";
+  color: dodgerblue;
+  margin: 10px 0;
+}
+
+.configGeneral .contenidoConf .grupoElementos .textoPolitica {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  font-family: "monse";
+  color: #333;
+  margin: 10px 0;
+}
+
+.configGeneral .contenidoConf .grupoElementos .textoContenido.Cambio {
+  color: rgb(184, 184, 184);
+  text-decoration: line-through #000;
+}
+
+.configGeneral .contenidoConf .grupoElementos .bandera{
+  position: relative;
+  width: 45px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTipo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTipo img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTipo img.img-activo {
+  border: 2px solid crimson;
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTipo .signo-contador {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-style: normal;
+  font-family: "monse";
+}
+
+.configGeneral .contenidoConf .grupoElementos .grupoTipo .textoContador {
+  font-size: 1.1em;
+  font-family: "monse";
+}
+
+/* comentarios */
+.configGeneral .contenidoConf .grupoComentario {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.configGeneral .contenidoConf .grupoComentario .usuarioComentario {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.configGeneral .contenidoConf .grupoComentario .usuarioComentario img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: solid 1px #aaa;
+}
+
+.configGeneral .contenidoConf .grupoComentario .valorComentario {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5px;
+}
+
+.configGeneral .contenidoConf .grupoComentario .valorComentario i {
+  color: #ddd;
+}
+
+.configGeneral .contenidoConf .grupoComentario .valorComentario i.active {
+  color: crimson;
+}
+
+.configGeneral .contenidoConf .grupoComentario .origenComentario {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.configGeneral .contenidoConf .grupoComentario .textoComentario {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px 10%;
+}
+
+/* boton */
+.configGeneral .contenidoConf .grupoBoton {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+/* contenido general box */
+.configGeneral .contenidoGeneralBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.configGeneral .contenidoGeneralBox .box {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.configGeneral .contenidoGeneralBox .box.activo {
+  box-shadow: 2px 2px 5px 2px goldenrod !important;
+}
+
+.configGeneral .contenidoGeneralBox .box.mas {
+  box-shadow: 2px 2px 5px 2px rgb(32, 150, 218) !important;
+}
+
+.configGeneral .contenidoGeneralBox .box p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .configGeneral {
+    padding: 5px;
+    margin-top: 30px;
+  }
+
+  .configGeneral .contenidoConf {
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(134, 134, 134);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .configGeneral .contenidoConf .grupoTitulo h1 {
+    padding-left: 10px;
+  }
+
+  .configGeneral .contenidoConf .grupoTitulo span {
+    font-size: 1em;
+  }
+
+  .configGeneral .contenidoConf .grupoTitulo p {
+    font-size: 1em;
+  }
+
+  .configGeneral .contenidoConf .grupoContenido {
+    flex-direction: column;
+  }
+  
+.configGeneral .contenidoConf .grupoContenido .grupoImagen {
+    width: 100%;
+  }
+  
+  .configGeneral .contenidoConf .grupoContenido .grupoImagen img {
+    width: 100%;
+  }
+  
+  .configGeneral .contenidoConf .grupoContenido .grupoDatos {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .configGeneral .contenidoConf .grupoContenido .grupoDatos2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .configGeneral .contenidoConf .grupoContenido .grupoDatos3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .configGeneral .contenidoConf .grupoEstadistica {
+    position: relative;
+    max-width: 550px;
+    height: auto;
+    padding: 10px 5px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  
+  .configGeneral .contenidoConf .grupoEstadistica .box {
+    position: relative;
+    min-width: 100px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(134, 134, 134, 0.5);
+  }
+}

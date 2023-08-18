@@ -1,0 +1,188 @@
+.enlaseAdminActivo{
+    box-shadow: 2px 2px 2px crimson;
+    border: none !important;
+    color: crimson;
+}
+
+/* enlases */
+.grupoEnlasesUbic {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.grupoEnlasesUbic .enlasesUbic {
+  position: relative;
+  width: 120px;
+  height: 30px;
+  background: #fff;
+  border: solid 1px #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* contenido */
+.configGeneral3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px 30px 10px 20px;
+  z-index: 100;
+}
+
+.configGeneral3 .contenidoConf {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-right: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 10px 10px 10px rgb(134, 134, 134);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.configGeneral3 .ElementoDepa{
+    display: none;
+}
+
+.configGeneral3 .ElementoProv{
+    display: none;
+}
+
+.configGeneral3 .contenidoConf .grupoTitulo {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.configGeneral3 .contenidoConf .grupoTitulo h1 {
+  padding-left: 20px;
+}
+
+.configGeneral3 .contenidoConf .grupoTitulo span {
+  position: relative;
+  width: 100%;
+  font-size: 1.1em;
+  font-family: "monse";
+}
+
+.configGeneral3 .contenidoConf .grupoTitulo p {
+  color: #222;
+  font-size: 1.1em;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.editarPais,
+.editarDepa,
+.editarProv{
+  display: none;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido2 .grupoDatos1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido2 .grupoDatos1 .caja1 {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  background: #333;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido2 .grupoDatos1 .pais_activo{
+  background: crimson;
+  color: #fff;
+}
+
+.configGeneral3 .contenidoConf .grupoContenido .grupoDatos2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.configGeneral3 .contenidoConf .grupoElementos {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.configGeneral3 .contenidoConf label {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  font-size: 0.9em;
+}
+
+.configGeneral3 .contenidoConf .grupoElementos .grupoTextoContenido {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.configGeneral3 .contenidoConf .grupoElementos .textoContenido {
+  font-size: 1.1em;
+  font-family: "monse";
+  padding-left: 20px;
+}
+
+.configGeneral3 .contenidoConf .grupoElementos .agregarTexto{
+  position: relative;
+  width: calc(100% - 100px);
+}
+
+.configGeneral3 .contenidoConf .grupoElementos .bandera {
+  position: relative;
+  width: 45px;
+  height: 20px;
+  margin-left: 20px;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+
+.configGeneral3 .contenidoConf .grupoElementos p{
+  text-transform: uppercase;
+}

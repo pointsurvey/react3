@@ -1,0 +1,179 @@
+
+/* footer --------------------------------- */
+
+.footerPaginas {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgb(3, 154, 255) url(../img/topo/curvas-dark2.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.footerPaginas .footerVisita {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footerPaginas .footerVisita .fVisitaTitulo {
+    margin: 10px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.footerPaginas .footerVisita .fVisita {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.footerPaginas .footerVisita .fVisita .visita1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.footerPaginas .footerVisita .fVisita .separador1,
+.footerPaginas .footerVisita .fVisita .separador2 {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerPaginas .footerAccesos,
+.footerPaginas .footerOtros,
+.footerPaginas .footerLinks {
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footerPaginas .footerAccesos img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.footerPaginas .footerAccesos .fAcceso1 {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.footerPaginas .footerOtros .fOtros1 {
+    padding: 5px;
+}
+
+.footerPaginas .footerOtros .fOtros1 a {
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.footerPaginas .footerOtros .fOtros1 a:hover {
+    color: #e93e81;
+}
+
+.footerPaginas .footerLinks .fLink1 {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footerPaginas .footerLinks .fLinkGrup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footerPaginas .footerLinks .fLinkGrup .fLink2 {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.footerPaginas .footerDerecho,
+.footerPaginas .footerPublicidad {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footerPaginas .footerDerecho h1 {
+    color: yellow;
+    font-size: 1.2em;
+    font-weight: 550;
+    text-align: center;
+}
+
+.footerPaginas .footerPublicidad .fPublicidad2 {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footerPaginas .footerPublicidad .fPublicidadGrup {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footerPaginas .footerPublicidad .fPublicidadGrup .fPublicidad {
+    width: 200px;
+    height: auto;
+}
+
+.footerPaginas .footerPublicidad .fPublicidadGrup .fPublicidad img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+    .footerPaginas .footerAccesos,
+    .footerPaginas .footerOtros,
+    .footerPaginas .footerLinks {
+        width: 100%;
+    }
+}

@@ -1,0 +1,194 @@
+.contenidoGeneralAuth {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(210, 232, 250) url(../img/logos/curvas.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contenidoGeneralAuth .contenidoLogin{
+  position: relative;
+  width: 350px;
+  height: 500px;
+}
+
+.contenidoGeneralAuth .login {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 50px;
+  background: #fff;
+  z-index: 200;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.contenidoGeneralAuth .login h2 {
+  color: #000;
+}
+
+.contenidoGeneralAuth .registro {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #000;
+  z-index: 100;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+
+.contenidoGeneralAuth .registro .contenido {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm h2 {
+  color: #fff;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm span {
+  color: crimson;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm span.success {
+  color: greenyellow;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm .grupoForm{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm .grupoForm label{
+  color: aliceblue;
+}
+
+.contenidoGeneralAuth .registro .contenido .registroForm .grupoForm input{
+  padding: 5px;
+}
+
+.contenidoGeneralAuth .login .contenido {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm{
+  position: relative;
+  width: 100%;
+  height: 280px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm h2 {
+  color: #111;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm span {
+  color: crimson;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm span.success {
+  color: rgb(60, 255, 0);
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm .grupoForm{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm .grupoForm label{
+  color: #111;
+}
+
+.contenidoGeneralAuth .login .contenido .loginForm .grupoForm input{
+  padding: 5px;
+}
+
+/* cambio de clave */
+/* --------------------------------------------- */
+.contenidoCambioClave{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(233, 223, 208) url(../img/logos/curvas.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contenidoCambioClave .enlases{
+  position: relative;
+  width: 400px;
+  height: 50px;  z-index: 110;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenidoCambioClave .contenedor {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #fff;
+  z-index: 100;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.contenidoCambioClave .contenedor h2{
+  color: #111;
+}

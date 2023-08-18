@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "alegreya";
+    src: url(../fonts/Alegreya-Regular.ttf)
+}
+
+@font-face {
+    font-family: "play";
+    src: url(../fonts/Playball.ttf);
+}
+
+@font-face {
+    font-family: "orange";
+    src: url(../fonts/orange.ttf);
+}
+
+@font-face {
+    font-family: "daniel";
+    src: url(../fonts/Daniel-Davis.otf);
+}
+
+@font-face {
+    font-family: "fred";
+    src: url(../fonts/Fredericka.ttf);
+}
+
+@font-face {
+    font-family: "monse";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "segoe";
+    src: url(../fonts/Segoe.ttf);
+}
